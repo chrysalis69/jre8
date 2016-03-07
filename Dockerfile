@@ -1,5 +1,5 @@
-FROM chrysalis69:busybox
-MAINTAINER stefan.coetzee@uct.ac.za
+FROM chrysalis69/busybox:latest
+MAINTAINER chrysalis69@gmail.com
 
 ADD https://busybox.net/downloads/binaries/ssl_helper-x86_64 /sbin/ssl_helper
 RUN chmod a+x /sbin/ssl_helper
